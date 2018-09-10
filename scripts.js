@@ -24,11 +24,11 @@ request.onload = function () {
 		const card = document.createElement('div');
 		card.setAttribute('class', 'card');
 
-    // Create an h1 and set the text content to the film's title
+    // Create an h1 and set the text content
 		const h1 = document.createElement('h1');
 		h1.textContent = delayed.airport;
 
-    // Create a p and set the text content to the film's description
+    // Create a p and set the text content
 		const p = document.createElement('p');
 		p.textContent = delayed.avgTime + " due to " + delayed.reason;
 
